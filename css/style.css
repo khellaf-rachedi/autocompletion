@@ -1,0 +1,154 @@
+@font-face {
+  font-family: 'BebasNeue';
+  src: url(../font/BebasNeue-Regular.ttf);
+}
+
+
+* {
+  margin: 0;
+  font-family: 'BebasNeue';
+}
+
+body {
+  background-color: #171717;
+}
+
+.titre-recherche{
+  text-align: center;
+  font-size: 4em;
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+
+.titre-recherche:hover{
+  color:rgb(46, 43, 43);
+  font-size: 5em;
+  transition: 1s;
+  /* text-shadow: #fff 1px 1px, #fff -1px 1px, #fff -1px -1px, #fff 1px -1px; */
+}
+
+footer{
+  margin-top: 2%;
+}
+
+h1 {
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-family: 'BebasNeue';
+}
+
+h2{
+color: #fff;
+margin: 25px 0 15px 0;
+}
+
+form input {
+  width: 49%;
+  /* color: white; */
+  font-size: 2em;
+  /* background-color: lightgray; */
+  padding: 1rem;
+  text-align: center;
+  margin-bottom:5%;
+  border-radius:14px;
+  border-color:red;
+  cursor: pointer;
+
+}
+
+form input:hover{
+ border-color:red;
+}
+
+.margin-dg{
+    margin: 0 25px 0 25px;
+}
+
+.products .box-container {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  gap: 4rem !important;
+}
+
+ a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover{
+    color: #fff;
+}
+
+.products .box-container .box a:hover {
+  background-color: #1cb9f4 !important;
+  border-radius: 8px;
+}
+
+.products .box-container .box .image img {
+  height: 25rem;
+  border-radius: 10px ;
+}
+
+.products .box-container .box .content h3 {
+  color: #fff !important;
+  font-size: 1.3rem;
+}
+
+.products .box-container .box .content {
+  flex: 2;
+}
+
+.products .box-container .box .content h3:hover {
+  color: #1cb9f4 !important;
+}
+
+.products .box-container .box .content .eps_rate {
+  color: rgb(229, 227, 227) !important;
+  font-size: 0.7rem;
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55% !important;
+  }
+
+  section {
+    padding: 2rem !important;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50% !important;
+  }
+}
+
+
+.image {
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.image:hover {
+  transform: scale(1.2); /* (120% zoom) */
+}
+
+
+.input-icons i {
+  position: absolute;
+  margin-top: 1.5%;
+  margin-left:1%;
+  
+  
+}
+
+i{
+  font-size: 3em;
+  color:gray
+}
+
+
+
