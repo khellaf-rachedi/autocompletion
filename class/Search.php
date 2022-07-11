@@ -2,13 +2,6 @@
 require_once 'class/Config.php';
 class Search extends  Config
 {
-    // public $anime;
-    // public $anime_url;
-    // public $anime_img;
-    // public $episode;
-    // public $votes;
-    // public $weight;
-    // public $rate;
 
     public function Anime()
     {
